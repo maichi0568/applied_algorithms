@@ -1,6 +1,6 @@
 ## Add two integers
 **Description**
-Compute the sum of two integers a and b.
+Compute the sum of two integers a and b. <br>
 **Input**
 Line 1 contains two integers a and b (0 <= a, b <= 10
 19
