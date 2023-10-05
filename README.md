@@ -68,3 +68,57 @@ POP<br>
 3<br>
 2<br>
 5<br>
+## Simulation Queue
+**Description**<br>
+Perform a sequence of operations over a queue, each element is an integer:<br>
+PUSH v: push a value v into the queue<br>
+POP: remove an element out of the queue and print this element to stdout (print NULL if the queue is empty)<br>
+**Input**<br>
+Each line contains a command (operration) of type<br>
+PUSH  v<br>
+POP<br>
+**Output**<br>
+Write the results of POP operations (each result is written in a line)<br>
+**Example**<br>
+*Input*<br>
+PUSH 1<br>
+PUSH 2<br>
+PUSH 3<br>
+POP<br>
+POP<br>
+PUSH 4<br>
+PUSH 5<br>
+POP<br>
+#<br>
+*Output*<br>
+1<br>
+2<br>
+3<br>
+.<br>
+*Input*<br>
+PUSH 1<br>
+POP<br>
+POP<br>
+PUSH 4<br>
+POP<br>
+#<br>
+*Output*<br>
+1<br>
+NULL<br>
+4<br>
+## Word Frequency in Text
+**Description**<br>
+Given a TEXT which consists of a sequence of words. Each word is defined to be a sequence of contiguous characters of the alphabet (a, ..., z, A, ..., Z) and digits (0, 1, ..., 9). Other special characters are considered as delimiters between words. <br>
+Write a program to count the number of occurrences o(w) of each word w of the given TEXT.<br>
+**Input**<br>
+The TEXT (each word of the TEXT has length <= 20)<br>
+**Output**<br>
+Each line contains a word w and o(w) (separated by a SPACE). The words (printed to lines of the stdout) are sorted in a lexicographic order.<br>
+**Example**<br>
+*Input*<br>
+abc  def abc <br>
+abc abcd def <br>
+*Output*<br>
+abc 3<br>
+abcd 1<br>
+def 2<br>
